@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "efficientnet-pytorch"
+version = "0.1.0"
+description = "EfficientNet in PyTorch"
+authors = ["Eric CHI <ericchi@sjis.com.tw>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.0.1"
+torchvision = "^0.15.2"
+torchaudio = "^2.0.2"
+tqdm = "^4.66.1"
+pandas = "^2.0.3"
+opencv-python = "^4.8.0"
+albumentations = "^1.3.1"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.40.1"
+toml = "^0.10.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
