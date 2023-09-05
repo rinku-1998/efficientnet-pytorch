@@ -1,4 +1,5 @@
 # efficientnet-pytorch
+整理 [lukemelas/EfficientNet-PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch) 的專案，加入以下訓練與資料增強 (Data Augmentation) 的功能。
 
 ## 安裝
 
