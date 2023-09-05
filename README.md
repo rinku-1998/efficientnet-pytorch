@@ -1,5 +1,20 @@
 # efficientnet-pytorch
 
+## 安裝
+
+1. 安裝 Pytorch，根據目標環境安裝 CPU 或 GPU 版本
+2. 安裝其餘套件
+
+```shell
+# 正式環境
+$ pip install -r requirements.txt  # pip
+$ poetry install  # poetry
+
+# 開發環境
+$ pip install -r requirements-dev.txt  # pip
+$ poetry install --dev  # poetry
+```
+
 ## 使用方法
 
 1.  準備照片與資料集清單
